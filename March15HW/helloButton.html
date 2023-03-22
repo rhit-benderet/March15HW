@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Hello Button</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #ff0000;
+    }
+</style>
+<body>
+    <label id="label">
+        Count: 0
+    </label>
+    <button type="button" onclick="increment(1)">Increment</button>
+    <button type="button" onclick="increment(-1)">Decrement</button>
+    <button type="button" onclick="reset()">Reset</button>
+    <button type="button" onclick="increment(-100)">-100</button>
+    <button type="button" onclick="increment(-10)">-10</button>
+    <button type="button" onclick="reset()">Invert</button>
+    <button type="button" onclick="increment(10)">+10</button>
+    <button type="button" onclick="increment(100)">+100</button>
+    <span class = "material-icons">closehome</span>
+    <script src="helloButton.js"></script>
+</body>
+</html>

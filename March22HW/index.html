@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Hello Frameworks</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="css/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+body {
+    background: #DDDDDD;
+}
+
+.navbar {
+    background-color: #800000;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+.buttons-group {
+text-align: center;
+padding:10px;
+}
+
+.button1 {
+    margin:10px;
+    color:white;
+    font-size:medium;
+    background-color:black;
+    width: 30%;
+    height:30px
+}
+.button2 {
+    margin:10px;
+    color:white;
+    font-size:medium;
+    background-color:black;
+    width: 16%;
+    height:30px
+}
+#counter {
+font-size:5em;
+text-align:center;
+}
+</style>
+<body>
+    <nav class="navbar navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Hello Frameworks</a>
+    </nav>
+      
+  <div id="mainPage" class="container page-container">
+    <button type="button" class = "button1" id = "minus1" onclick="increment(-1)">-1</button>
+    <button type="button" class = "button1" id = "reset" onclick="reset()">Reset</button>
+    <button type="button" class = "button1" id = "plus1" onclick="increment(1)">+1</button>
+    <button type="button" class = "button2" id = "minus100" onclick="increment(-100)">-100</button>
+    <button type="button" class = "button2" id = "minus10" onclick="increment(-10)">-10</button>
+    <button type="button" class = "button2" id = "invert" onclick="invert()">Invert</button>
+    <button type="button" class = "button2" id = "plus10" onclick="increment(10)">+10</button>
+    <button type="button" class = "button2" id = "plus100" onclick="increment(100)">+100</button>
+    <label id="counter">
+        Count: 0
+    </label>
+    <script src="helloButton.js"></script>
+    </div>
+</body>
+</html>
